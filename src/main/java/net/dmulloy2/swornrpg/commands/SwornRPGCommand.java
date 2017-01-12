@@ -17,7 +17,7 @@
  */
 package net.dmulloy2.swornrpg.commands;
 
-import net.dmulloy2.commands.Command;
+//import net.dmulloy2.commands.Command; - in the repository doesn't include this file
 import net.dmulloy2.swornrpg.SwornRPG;
 import net.dmulloy2.swornrpg.types.PlayerData;
 import net.dmulloy2.util.Util;
@@ -29,7 +29,7 @@ import org.bukkit.entity.Player;
  * @author dmulloy2
  */
 
-public abstract class SwornRPGCommand extends Command
+public abstract class SwornRPGCommand extends Command //ERROR?
 {
 	protected final SwornRPG plugin;
 	public SwornRPGCommand(SwornRPG plugin)
